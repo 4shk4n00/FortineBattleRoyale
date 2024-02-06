@@ -1,0 +1,150 @@
+/* Ponemos fondo a nuestro body con la pagina svgbackgrounds */
+body{
+    background-color: #4FFF06;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23FF0419' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%234FFF06' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2300f342' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2300e55f' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%2300d775' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%2300c887' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%2300b995' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2300aa9f' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23009aa5' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23008aa7' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23007aa4' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23006b9d' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23005b92' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23004c84' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23003d73' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23002f60' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%2300214c' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23001437' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23000124' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Fin de body */
+
+/* Titulo de la pagina */
+.exaFortniteBattleRoyale{
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.exaFortniteBattleRoyale:hover{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Fin de titulo de la pagina */
+
+/* SubTitulo del primer contenedor grande */
+.exaQueEs{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: green;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 40px;
+}
+/* Fin de SubTitulo del primer contenedor grande */
+
+/* SubTitulo del segundo contenedor grande */
+.exaComoSeJuega{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: green;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    margin-top: 550px;
+}
+/* Fin de SubTitulo del primer contenedor grande */
+
+/* SubTitulo del tercer contenedor grande */
+.exaComoMejorar{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: green;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 40px;
+}
+/* Fin de SubTitulo del tercer contenedor grande */
+
+/* Imagenes */
+.exaQueEsFortniteBattleRoyale{
+    width: 650px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+    border-style: solid;
+    border-radius: 20px;
+}
+.exaComoSeJuegaImagen{
+    grid: 20%;
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 200px;
+    border-style: solid;
+    border-radius: 20px;
+}
+.exaComoMejorarImagen{
+    grid: 20%;
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 200px;
+    border-style: solid;
+    border-radius: 20px;
+}
+/* Fin de Imagenes */
+
+/* Contenedores grandes */
+#exaContenedorFortniteBattleRoyale{
+    position: relative;
+    float: right;
+    top: 100px;
+    right: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:oblique;
+    font-weight: bold;
+}
+.exaContenedorComoSeJuega{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+.exaContenedorComoMejorar{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+/* Fin de Contenedores grandes */
+
+/* Configuracion a los input */
+.exaForm{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-transform:capitalize;
+}
+input{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+}
+/* Fin configuracion a los input */
+
+/* Configuracion a los links */
+a{
+    text-decoration:none;
+    color: currentColor;
+}
+a:hover{
+    color: #4FFF06;
+    font-size: 20px;
+    border-style: solid;
+    border-color:blueviolet;
+    border-radius: 30px;
+    border-width: 2px;
+}
+/* Fin configuracion a los links */

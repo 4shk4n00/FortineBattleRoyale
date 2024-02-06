@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Creador: Ashkan Sevinov Ashimov
+         Fecha: 1/03/2023 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlazar una imagen para la pestaña de la Web con Link -->
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <!-- Enlazar el css con el html con un link -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Examen 2ª Evaluacion</title>
+</head>
+<body>
+    <!-- Crearemos 3 grandes divs en los que va a haber información en cada parte
+         una de que es, como se juega y la ultima como mejorar -->
+         <!-- Título Principal de la página Web -->
+    <h1 class="exaFortniteBattleRoyale">Fortnite Manual</h1>
+    <!-- Título para el primer div, los titulos de cada div no los meto dentro del div -->
+    <h1 class="exaQueEs">¿Qué es Fortnite Battle Royale?</h1>
+    <!-- Primer Contenedor Grande -->
+    <div id="exaContenedorFortniteBattleRoyale">
+        <p class="exaTexto1">
+            Fortnite Battle Royale, es un videojuego multiplataforma que se puede
+            jugar en consolas como PS4, PS5, XBox, Nintendo Switch y<br>
+            <!-- Como vemos arriba y abajo en el texto tenemos un br y lo estoy usando para
+                 separar el texto y ponerlo una linea por debajo. Lo veremos más a continuacion en los 
+                 demás divs -->
+            en ordenadores PC o Portátiles. Desarrollado por Epic Games y salió el 
+            26 de Septiembre de 2017 como Fortnite Salvar El Mundo.<br>
+            En Battle Royale, tiene distintos modos de juego como:
+            <!-- Creamos una lista no ordenada sin numeracion para ver cuales son los tipos modos de juego que tenemos -->
+            <ul>
+                <li>Solitario/Solitario Arena</li>
+                <li>Duos/Duos Arena</li>
+                <li>Trios/Trios Arena</li>
+                <li>Escuadrones</li>
+                <li>Refriega de Equipos</li>
+                <li>Modo Creativo</li>
+            </ul>
+        </p>
+        <p class="exaTexto1">
+            <!-- Agregamos un "a" para enviar la descarga del juego a la pagina oficial de EpicGames -->
+            Si quieres jugar a este fantástico juego dale <a href="https://www.epicgames.com/site/es-ES/home" target="_blank">"Click Aquí"</a>
+        </p>
+    </div>
+    <img src="img/FortniteBattleRoyale.jpg" alt="FortniteBattleRoyale" class="exaQueEsFortniteBattleRoyale">
+    <!-- SubTitulo del segundo div -->
+    <h1 class="exaComoSeJuega">¿Cómo se juega?</h1>
+    <!-- Segundo Contenedor Grande -->
+    <div class="exaContenedorComoSeJuega">
+        <p class="exaTexto2">
+            Para jugar a Battle Royale, saltaremos de un bus y iremos en busca de <br>
+            cofres, materiales para contrucción y por armas. Lo que tenemos que hacer es defendernos<br>
+            de los demás jugadores y ser último en sobrevivir y así ganaremos la partida.
+        </p>
+    </div>
+    <img src="img/ComoSeJuega.jpg" alt="comosejuegabattleroyale" class="exaComoSeJuegaImagen">
+    <img src="img/ComoSeJuega2.jpg" alt="comosejuegabattleroyale" class="exaComoSeJuegaImagen">
+    <img src="img/ComoSeJuega3.jpg" alt="comosejuegabattleroyale" class="exaComoSeJuegaImagen">
+    <!-- SubTitulo del tercer div -->
+    <h1 class="exaComoMejorar">¿Cómo puedo mejorar?</h1>
+    <!-- Tercer Contenedor Grande -->
+    <div class="exaContenedorComoMejorar">
+        <p class="exaTexto3">
+            Para mejorar en fortnite, la mejor manera es entrar al modo creativo<br>
+            y jugar mapas para mejorar el aim, mejorar la construcción y mejorar las estrategias.
+        </p>
+        <img src="img/ComoMejorar.jpg" alt="comomejorar" class="exaComoMejorarImagen">
+        <img src="img/ComoMejorar2.jpg" alt="comomejorar" class="exaComoMejorarImagen">
+        <img src="img/ComoMejorar3.jpg" alt="comomejorar" class="exaComoMejorarImagen">
+    </div>
+    <!-- Crearemos un div y dentro de el crearemos un formulario en el que el que lea la página web,
+         ingrese sus datos para mas novedades sobre este juego. -->
+    <div class="exaFormulario">
+        <h1 class="exaForm">Rellena el siguiente Formulario</h1>
+        <form action="PruebaFortnite">
+            <!-- Cada fieldset es una parte del formulario, pero en este caso haré solo un fieldset para ingresar los datos -->
+            <fieldset>
+                <legend>Prueba de Fortnite</legend>
+                Fecha de Nacimiento<input type="date" name="Fecha de Nacimiento" required><br>
+                Nickname o Nombre de EpicGames<input type="text" required><br>
+                Dinos tu e-mail para más información sobre Fortnite<input type="email" name="email" required><br>
+                Número de teléfono<input type="number"><br>
+                Región en la que Juegas<input type="text" required><br>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <!-- Cerramos por completo el html -->
+</body>
+</html>
